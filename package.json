@@ -1,8 +1,9 @@
 {
-  "name": "cjet-h5-template",
+  "name": "cjet-h5-pro-template",
   "version": "1.0.0",
+  "description": "企业级H5应用开发框架-专业版",
   "private": true,
-  "repository": "chanjet-fe/cjet-h5-template",
+  "repository": "chanjet-fe/cjet-h5-pro-template",
   "scripts": {
     "dev": "cjet dev",
     "build": "cjet build"
