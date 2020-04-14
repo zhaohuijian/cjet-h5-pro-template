@@ -1,5 +1,8 @@
 <p align="center">
-    <img width="250" src="https://user-images.githubusercontent.com/9346030/79197426-45236b80-7e64-11ea-9441-2bc30e7ba51c.png">
+<img width="200" alt="cjet-h5-pro3" src="https://user-images.githubusercontent.com/9346030/79202427-32149980-7e6c-11ea-9da1-d1ad1c711b5e.png">
+    <img width="200" alt="cjet-h5-pro1" src="https://user-images.githubusercontent.com/9346030/79202422-2fb23f80-7e6c-11ea-8fda-2bf6ff256058.png">
+<img width="200" alt="cjet-h5-pro2" src="https://user-images.githubusercontent.com/9346030/79202426-317c0300-7e6c-11ea-9ea9-1ba0f3287cfb.png">
+
 </p>
 
 # cjet-h5-pro-template (专业版)
@@ -246,6 +249,92 @@ export default DemoGetStore;
 ## 代码分割及按需加载的最佳实践
 
 待续...
+
+## 集成 antdMobile 组件库示例
+
+##### 布局（Layout）
+
+- Flex Flex 布局
+- WingBlank 两翼留白
+- WhiteSpace 上下留白
+
+##### 数据录入（Data Entry）
+
+- Button 按钮
+- Checkbox 复选框
+- Calendar 日历
+- DatePickerView 选择器
+- DatePicker 日期选择
+- InputItem 文本输入
+- ImagePicker 图片选择器
+- PickerView 选择器
+- Picker 选择器
+- Radio 单选框
+- Range 区域选择
+- Switch 滑动开关
+- Stepper 步进器
+- Slider 滑动输入条
+- SearchBar 搜索栏
+- TextareaItem 多行输入
+
+##### 导航（Navigation）
+
+- Drawer 抽屉
+- Menu 菜单
+- NavBar 导航栏
+- Popover 气泡
+- Pagination 分页器
+- SegmentedControl 分段器
+- Tabs 标签页
+- Tabs 标签页 垂直样式
+- Tabs 标签页 自定义个数
+- TabBar 标签栏 APP 型选项卡
+- TabBar 标签栏 与 ListView 结合使用
+- TabBar 标签栏 Tabbar 在顶部
+
+##### 数据显示（Data Display）
+
+- Accordion 手风琴
+- Badge 徽标数
+- Carousel 走马灯
+- Carousel 走马灯 子元素数量变化
+- Carousel 走马灯 带间距
+- Carousel 走马灯 竖向
+- Carousel 走马灯 抽奖
+- Card 卡片
+- Grid 宫格
+- Icon 图标
+- List 列表
+- List 列表 可输入列表
+- NoticeBar 通告栏
+- Steps 步骤条
+- Steps 步骤条 水平方向的步骤条
+- Tag 标签
+
+##### 反馈（Feedback）
+
+- ActionSheet 动作面板
+- ActivityIndicator 活动指示器
+- Modal 对话框
+- Modal 对话框 警告弹窗
+- Modal 对话框 输入弹窗
+- Modal 对话框 操作弹窗
+- Progress 进度条
+- Toast 轻提示
+
+##### 手势（Gesture）
+
+- PullToRefresh 拉动刷新
+- PullToRefresh 拉动刷新 ListView 下拉刷新
+- SwipeAction 滑动操作
+
+##### 组合（Combination）
+
+- ListView 长列表
+- ListView 长列表 body 容器 下拉刷新
+- ListView 长列表 标题吸顶（body 容器) 下拉刷新
+- ListView 长列表 索引列表（标题吸顶） 下拉刷新
+- Result 结果页
 
 ## License
 

@@ -25,7 +25,7 @@ class LoginLayout extends React.PureComponent {
                 <div className={styles.header}>
                   <LoginTitle></LoginTitle>
                 </div>
-                <div className={styles.desc}>专业版企业级H5应用解决方案</div>
+                <div className={styles.desc}>企业级H5应用开发框架-专业版</div>
               </div>
 
               <Suspense fallback={<LoadingPage />}>
