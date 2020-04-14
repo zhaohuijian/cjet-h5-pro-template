@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="250" src="https://user-images.githubusercontent.com/9346030/77044974-53b06b80-69fb-11ea-89ad-fab16eddd48f.png">
+    <img width="250" src="https://user-images.githubusercontent.com/9346030/79197426-45236b80-7e64-11ea-9441-2bc30e7ba51c.png">
 </p>
 
 # cjet-h5-pro-template (专业版)
