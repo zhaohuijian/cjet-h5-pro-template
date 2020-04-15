@@ -12,7 +12,6 @@
 ### 基本特性：
 
 - 拥有[基础版企业级 H5 应用开发框架](https://github.com/chanjet-fe/cjet-h5-template)全部特性
-
 - 集成 React-router 和 React-router-dom 路由方案
 - 集成 Mobx 和 Mobx-react 状态管理
 - 集成 rc-form 表单验证方案
