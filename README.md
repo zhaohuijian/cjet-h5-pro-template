@@ -187,6 +187,8 @@ export default {
 
 #### 2、使用 Provider 传递 store 给路由组件
 
+这里主要使用 React 的 context 机制来传递 store 给子组件，之后子组件即可调用或改变在 store 中定义的状态数据。
+
 ```js
 // 组件入口 index.js
 import React, { Component, Fragment } from "react";
@@ -226,6 +228,10 @@ export default DemoComponent;
 
 #### 3、创建视图以响应状态的变化并使用 inject 将组件连接到提供的 stores
 
+- observer 函数/装饰器可以用来将 React 组件转变成响应式组件。 它用 mobx.autorun 包装了组件的 render 函数以确保任何组件渲染中使用的数据变化时都可以强制刷新组件。
+
+- inject 函数是 Provider 的高阶组件，可以用来从 React 的 context 中挑选 store 作为 prop 传递给目标组件。
+
 ```js
 // page1.js
 import React, { Fragment, Component } from "react";
@@ -243,6 +249,17 @@ class page1 extends Component {
 }
 
 export default DemoGetStore;
+```
+
+也可以使用无状态函数组件连接到 stores：
+
+```js
+const LoginTitle = inject("demoStore")(
+  observer((props) => {
+    const { demoStore } = props;
+    return <span>{demoStore.demoText}</span>;
+  })
+);
 ```
 
 ## 代码分割及按需加载的最佳实践
